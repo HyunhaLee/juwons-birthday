@@ -1,38 +1,123 @@
+@font-face {
+  font-family: "PeopleFirstTtobaks";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2406-2@1.0/PeoplefirstNeatLoudTTF.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cafe24Gowoonbam";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cafe24Decobox";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2405-3@1.1/Cafe24Decobox.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-display: swap;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited,
+a:active {
+  color: #081377;
+}
+
 .App {
+  font-family: "Cafe24Gowoonbam";
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background-color: #f6f3a0;
+  color: #081377;
+  /* color: #48582d; */
+  padding: 50px 0;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.header-img-area {
+  width: 180px;
+  aspect-ratio: 5/5;
+  border-radius: 50%;
+  position: relative;
+}
+.header-bg {
+  width: 180px;
+  aspect-ratio: 5/5;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 0;
+}
+.header-img {
+  width: 100%;
+  aspect-ratio: 5/5;
+  border-radius: 50%;
+  object-fit: cover;
+  background-image: url(./one3.png);
+  background-size: cover;
+  background-position: -8px 0px;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+.header-img-hat {
+  width: 80px;
+  position: absolute;
+  top: -66px;
+  left: 42px;
+  z-index: 0;
+  transform: rotate(-10deg);
+}
+.header-img-confetti {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+}
+.header-img-deco {
+  width: 20px;
+  height: 20px;
+}
+.App-main > p > span {
+  color: #112ab6;
+  font-weight: 800;
+}
+h1,
+h2,
+h3 {
+  color: #112ab6;
+  margin: 30px 0;
+}
+h1 {
+  margin-bottom: 80px;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  font-family: "Cafe24Decobox";
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fly-bear {
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotate(-20deg);
+}
+.fly-fish {
+  width: 100px;
+  height: 150px;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+  transform: rotate(-20deg);
 }
