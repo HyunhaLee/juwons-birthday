@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/juwons-birthday/static/css/main.63a39990.css",
+    "main.js": "/juwons-birthday/static/js/main.867ac375.js",
+    "static/js/453.14c30d99.chunk.js": "/juwons-birthday/static/js/453.14c30d99.chunk.js",
+    "static/media/one3.png": "/juwons-birthday/static/media/one3.9ff5981b150b61ac6d1f.png",
+    "static/media/party-hat.png": "/juwons-birthday/static/media/party-hat.5beddc59796eb8399080.png",
+    "static/media/confetti.png": "/juwons-birthday/static/media/confetti.3069815c79dfb1fa9933.png",
+    "static/media/decoration.png": "/juwons-birthday/static/media/decoration.4b39824c9bbfadd845a2.png",
+    "static/media/yellow2.png": "/juwons-birthday/static/media/yellow2.8ad2644a70f0adfce2b5.png",
+    "static/media/green.png": "/juwons-birthday/static/media/green.d6e09bbb2455eeb0c764.png",
+    "static/media/pink2.png": "/juwons-birthday/static/media/pink2.667d0f6709c2dea60411.png",
+    "static/media/yellow1.png": "/juwons-birthday/static/media/yellow1.c6da0310ed56addb9927.png",
+    "static/media/red2.png": "/juwons-birthday/static/media/red2.7fc81fda2363585c2407.png",
+    "static/media/red1.png": "/juwons-birthday/static/media/red1.74aa73a865dda91211fe.png",
+    "static/media/pink1.png": "/juwons-birthday/static/media/pink1.a9474738c87e1b310bb3.png",
+    "static/media/blue.png": "/juwons-birthday/static/media/blue.3ab4d441488a7816ef69.png",
+    "index.html": "/juwons-birthday/index.html",
+    "main.63a39990.css.map": "/juwons-birthday/static/css/main.63a39990.css.map",
+    "main.867ac375.js.map": "/juwons-birthday/static/js/main.867ac375.js.map",
+    "453.14c30d99.chunk.js.map": "/juwons-birthday/static/js/453.14c30d99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63a39990.css",
+    "static/js/main.867ac375.js"
+  ]
+}
