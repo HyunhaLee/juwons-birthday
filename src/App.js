@@ -9,6 +9,7 @@ import confettired1 from "./red1.png";
 import confettired2 from "./red2.png";
 import confetti from "./confetti.png";
 import decoration from "./decoration.png";
+import call from "./call.png";
 import "./App.css";
 
 function App() {
@@ -257,13 +258,14 @@ function App() {
           자리하시어 함께 축복해 주시면 감사하겠습니다.
           <br />
           <br />
-          아빠{" "}
-          <a href="tel:01044715896">
-            <span>주형우</span>
-          </a>{" "}
-          | 엄마{" "}
-          <a href="tel:01071069739">
-            <span>이현하</span>
+          <a href="tel:01044715896" style={{ position: "relative" }}>
+            <span>아빠 주형우</span>
+            <img src={call} className="call-icon" alt="call for hyungwoo" />
+          </a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;
+          <a href="tel:01071069739" style={{ position: "relative" }}>
+            <span>엄마 이현하</span>
+            <img src={call} className="call-icon" alt="call for hyunha" />
           </a>
           <br />
           <br />
