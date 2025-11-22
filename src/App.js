@@ -28,9 +28,9 @@ function App() {
             style={{
               width: "50px",
               height: "50px",
-              top: "-180px",
-              left: "-80px",
-              transform: "rotate(64deg)",
+              top: "-220px",
+              left: "-85px",
+              transform: "rotate(65deg)",
             }}
           />
           <img
@@ -121,9 +121,9 @@ function App() {
             style={{
               width: "50px",
               height: "50px",
-              top: "-178px",
-              right: "-80px",
-              transform: "rotate(-195deg)",
+              top: "-218px",
+              right: "-85px",
+              transform: "rotate(-205deg)",
             }}
           />
           <img
@@ -226,7 +226,7 @@ function App() {
             }}
           />
         </div>
-        <p>
+        <p className="move">
           어느덧, 1년
           <br />
           우리 원이가 벌써
@@ -310,18 +310,23 @@ function App() {
           <br /> 캠핑 분위기의 야외 바베큐장 입니다.
           <br />
           <br />
-          원이의 돌잔치에 참석하시어
+          원이의 돌잔치에서
           <br />
           오랜만에 만난 가족, 친구들과 함께
           <br />
-          자연 속에서 힐링하며 한 해 멋지게 마무리하시면 좋겠습니다.
+          자연 속에서 힐링하며
+          <br />한 해 멋지게 마무리하시면 좋겠습니다.
           <br />
           <br />
           감사합니다.
           <br />
           <br />
-          *식사는 대형 텐트 안에서 진행되며 히터도 빵빵하지만 <br />
-          호기심 가득한 우리 아이들은 밖을 뛰어다니고 싶어 할 테니 꼭!
+          *식사는 대형 텐트 안에서 진행되며
+          <br /> 히터도 빵빵하지만,
+          <br />
+          호기심 가득한 우리 아이들은
+          <br />
+          밖을 뛰어다니고 싶어 할 테니 꼭!
           <br />
           <b>반드시! 여러겹 따뜻하게 입혀주세요!!</b>
         </p>

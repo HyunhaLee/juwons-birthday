@@ -48,6 +48,7 @@ a:active {
   aspect-ratio: 5/5;
   border-radius: 50%;
   position: relative;
+  margin-top: 80px;
 }
 .header-bg {
   width: 180px;
@@ -96,8 +97,15 @@ h3 {
   color: #112ab6;
   margin: 30px 0;
 }
-h1 {
-  margin-bottom: 80px;
+@media screen and (max-width: 350px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 350px) {
+  h1 {
+    font-size: 30px;
+  }
 }
 
 h3 {
@@ -105,19 +113,16 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 3px;
 }
-.fly-bear {
-  width: 100px;
-  height: 150px;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform: rotate(-20deg);
+.move {
+  padding-top: 20px;
+  animation-duration: 5s;
+  animation-name: show;
 }
-.fly-fish {
-  width: 100px;
-  height: 150px;
-  position: absolute;
-  top: 100px;
-  left: 30px;
-  transform: rotate(-20deg);
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
