@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/juwons-birthday/static/css/main.63a39990.css",
-    "main.js": "/juwons-birthday/static/js/main.867ac375.js",
+    "main.css": "/juwons-birthday/static/css/main.f4ff8232.css",
+    "main.js": "/juwons-birthday/static/js/main.addb19ad.js",
     "static/js/453.14c30d99.chunk.js": "/juwons-birthday/static/js/453.14c30d99.chunk.js",
-    "static/media/one3.png": "/juwons-birthday/static/media/one3.9ff5981b150b61ac6d1f.png",
+    "static/media/one2.png": "/juwons-birthday/static/media/one2.9ff5981b150b61ac6d1f.png",
     "static/media/party-hat.png": "/juwons-birthday/static/media/party-hat.5beddc59796eb8399080.png",
     "static/media/confetti.png": "/juwons-birthday/static/media/confetti.3069815c79dfb1fa9933.png",
+    "static/media/call.png": "/juwons-birthday/static/media/call.8f08d87fc9c5eaa8db48.png",
     "static/media/decoration.png": "/juwons-birthday/static/media/decoration.4b39824c9bbfadd845a2.png",
     "static/media/yellow2.png": "/juwons-birthday/static/media/yellow2.8ad2644a70f0adfce2b5.png",
     "static/media/green.png": "/juwons-birthday/static/media/green.d6e09bbb2455eeb0c764.png",
@@ -16,12 +17,12 @@
     "static/media/pink1.png": "/juwons-birthday/static/media/pink1.a9474738c87e1b310bb3.png",
     "static/media/blue.png": "/juwons-birthday/static/media/blue.3ab4d441488a7816ef69.png",
     "index.html": "/juwons-birthday/index.html",
-    "main.63a39990.css.map": "/juwons-birthday/static/css/main.63a39990.css.map",
-    "main.867ac375.js.map": "/juwons-birthday/static/js/main.867ac375.js.map",
+    "main.f4ff8232.css.map": "/juwons-birthday/static/css/main.f4ff8232.css.map",
+    "main.addb19ad.js.map": "/juwons-birthday/static/js/main.addb19ad.js.map",
     "453.14c30d99.chunk.js.map": "/juwons-birthday/static/js/453.14c30d99.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63a39990.css",
-    "static/js/main.867ac375.js"
+    "static/css/main.f4ff8232.css",
+    "static/js/main.addb19ad.js"
   ]
 }
